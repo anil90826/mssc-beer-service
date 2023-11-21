@@ -18,6 +18,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 @Entity
+@Table(schema = "dbo", name = "beer")
 public class Beer {
 
     @Id
